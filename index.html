@@ -97,15 +97,17 @@
     <!-- main  -->
     <section class="bg-[#F0FDF4]">
       <h1 class="text-center">Choose Your Trees</h1>
-      <section class="grid grid-cols-5 gap-5 mx-auto max-w-11/12">
+      <section class="grid grid-cols-1 gap-5 mx-auto md:grid-cols-5 max-w-11/12">
         <!-- left -->
-        <div id="category-btn" class="col-span-1">
-          <h2>Categories</h2>
+        <div>
+          <h2 class="text-center ">Categories</h2>
+          <div id="category-btn" class="flex flex-wrap justify-center gap-2 ml-4 md:col-span-1 md:ml-0 ">
           <button
-            class="hover:bg-[#15803D] hover:text-white text-left w-full p-3 rounded-lg"
+            class="hover:bg-[#15803D] border-[#15803D] border-1 md:border-none hover:text-white text-left md:w-full p-3 rounded-lg "
           >
             All Tree
           </button>
+        </div>
         </div>
         <!-- middle -->
         <div class="col-span-3">

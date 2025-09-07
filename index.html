@@ -96,29 +96,116 @@
     </header>
     <!-- main  -->
     <section class="bg-[#F0FDF4]">
-      <h1 class="text-center">Choose Your Trees</h1>
-      <section class="grid grid-cols-1 gap-5 mx-auto md:grid-cols-5 max-w-11/12">
+      <h1 class="text-center text-[32px] font-semibold mb-10 pt-20">
+        Choose Your Trees
+      </h1>
+      <section
+        class="grid grid-cols-1 gap-5 mx-auto md:grid-cols-5 max-w-11/12"
+      >
         <!-- left -->
         <div>
-          <h2 class="text-center ">Categories</h2>
-          <div id="category-btn" class="flex flex-wrap justify-center gap-2 ml-4 md:col-span-1 md:ml-0 ">
-          <button
-            class="hover:bg-[#15803D] border-[#15803D] border-1 md:border-none hover:text-white text-left md:w-full p-3 rounded-lg "
+          <h2
+            class="text-center md:text-start text-[20px] font-semibold md:pb-1 pb-3"
           >
-            All Tree
-          </button>
-        </div>
+            Categories
+          </h2>
+          <div
+            id="category-btn"
+            class="flex flex-wrap justify-center gap-2 ml-4 md:col-span-1 md:ml-0"
+          >
+            <button
+              class="hover:bg-[#15803D] border-[#15803D] border-1 md:border-none hover:text-white text-left md:w-full p-3 rounded-lg text-[14px] md:text-base font-semibold"
+            >
+              All Tree
+            </button>
+          </div>
         </div>
         <!-- middle -->
         <div class="col-span-3">
-          <div class="grid grid-cols-3">
-            <h1>card</h1>
-            <h1>card</h1>
-            <h1>card</h1>
+          <div
+            id="card-cont"
+            class="grid grid-cols-2 gap-3 rounded-lg md:grid-cols-3"
+          >
+            <div class="p-2 space-y-2 bg-white rounded-lg shadow-sm">
+              <div>
+                <img
+                  class="p-1 rounded-lg"
+                  src="assets/hero-leaf1.png"
+                  alt=""
+                />
+              </div>
+              <div>
+                <h3 class="text-sm font-semibold">Mango Tree</h3>
+                <p class="text-[#1F2937] text-xs">
+                  A fast-growing tropical tree that produces delicious, juicy
+                  mangoes during summer. Its dense green
+                </p>
+              </div>
+              <div class="flex items-center justify-between">
+                <p class="bg-[#DCFCE7] p-2 text-[#15803D] text-xs rounded-full">
+                  Fruit Tree
+                </p>
+                <h5 class="text-sm font-semibold">৳<span>500</span></h5>
+              </div>
+              <div>
+                <button
+                  class="bg-[#15803D] text-white text-center w-full p-3 rounded-full font-semibold"
+                >
+                  All Tree
+                </button>
+              </div>
+            </div>
+            <div class="p-2 space-y-2 bg-white rounded-lg shadow-sm">
+              <div>
+                <img
+                  class="p-1 rounded-lg"
+                  src="assets/hero-leaf1.png"
+                  alt=""
+                />
+              </div>
+              <div>
+                <h3 class="text-sm font-semibold">Mango Tree</h3>
+                <p class="text-[#1F2937] text-xs">
+                  A fast-growing tropical tree that produces delicious, juicy
+                  mangoes during summer. Its dense green
+                </p>
+              </div>
+              <div class="flex items-center justify-between">
+                <p class="bg-[#DCFCE7] p-2 text-[#15803D] text-xs rounded-full">
+                  Fruit Tree
+                </p>
+                <h5 class="text-sm font-semibold">৳<span>500</span></h5>
+              </div>
+              <div>
+                <button
+                  class="bg-[#15803D] text-white text-center w-full p-3 rounded-full font-semibold"
+                >
+                  All Tree
+                </button>
+              </div>
+            </div>
           </div>
         </div>
         <!-- right -->
-        <div class="col-span-1">cart</div>
+        <div class="p-2 bg-white rounded-lg shadow-sm md:col-span-1">
+          <h2 class="text-[20px] font-semibold rounded-lg"> 
+            Your Cart
+          </h2>
+          <div class="bg-[#DCFCE7] ">
+             <div class="flex items-center justify-between px-3 py-2">
+              <div> <h3>Mango</h3>
+              <h6>500$</h6></div>
+              <div>
+                <p> X</p>
+              </div>
+             </div>
+            </div>
+            <div class="flex justify-between p-1">
+               <h2>total:</h2>
+             <span>0</span>
+            </div>
+          </div>
+        
       </section>
     </section>
 
